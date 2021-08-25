@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Medicaps University</title>
+  </head>
+  <body>
+    <!-- !!!!!!!!! Header Section Start !!!!!!!!! -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1 data-aos="fade-right">About Us</h1>
+    </section>
+    <!-- !!!!!!!!! Header Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!!! Content Section Start !!!!!!!!! -->
+    <section class="content">
+      <div class="row">
+        <div class="about-col" data-aos="fade-right">
+          <h1>Gymnasium</h1>
+          <p>
+            Medi-Caps Gymnasium being clean and airy has a good selection of
+            free-weights, resistance machines and good equipments. A gym can
+            have all the atmosphere and ambience in the world, but if it does
+            not have good facilities it will not be worth much. An area of over
+            5,000 sq. ft the Gymnasium have sufficient space to work-out safely
+            under proper supervision of the sports faculties.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col" data-aos="fade-left">
+          <img src="images/gym.jpg" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col" id="img-sec" data-aos="fade-right">
+          <img src="images/hostel.jpg" alt="" />
+        </div>
+        <div class="about-col" id="text-sec" data-aos="fade-left">
+          <h1>Hostel</h1>
+          <p>
+            The University has magnificently designed separate hostels for boys
+            and girls each with all modern facilities for boarding and other
+            recreational activities. The hostel buildings are remarkable pieces
+            of architecture. Carefully designed structure the temperature inside
+            the buildings remain comfortable even in extremely hot conditions.
+            Twenty-four hours security assured. Hostel committee, a student
+            body, manages the hostel. The Hostel committee in consultation with
+            students takes care of different aspects like hygiene, discipline
+            etc.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-col" data-aos="fade-right">
+          <h1>Transport Facility</h1>
+          <p>
+            The Group has a fleet of more than 29 buses for the convenience of
+            the students and its staff members. Besides, the solid web of local
+            buses makes it convenient for any person from Indore, Ujjain or MHOW
+            to commute to the Institute. The group provides the facility of safe
+            travelling through its in-house shuttle buses with various pick-up
+            and drop-off points in the city of Indore and its outskirts.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col" data-aos="fade-left">
+          <img src="images/transport.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- !!!!!!!!! Content Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!!! Footer Section Start !!!!!!!!! -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Medi-Caps has been a brand name in the arena of technical education.
+        Since its inception in July 2000, Medi-Caps has consistently aimed at
+        creating an ideal <br />ambiance for budding technocrats and managers
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        <p>Made with <i class="far fa-heart"></i> Gurupreet Singh</p>
+      </div>
+    </section>
+    <!-- !!!!!!!!! Footer Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!! Javascript for Toggle Menu !!!!!!!! -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <!-- !!!!!!!! AOS Data !!!!!!!! -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 230,
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Medicaps University</title>
+  </head>
+  <body>
+    <!-- !!!!!!!!! Header Section Start !!!!!!!!! -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1 data-aos="fade">Our Certificate and Online Program for 2021</h1>
+    </section>
+    <!-- !!!!!!!!! Header Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!!! Blog-Content Section Start !!!!!!!!! -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="/images/certificate.jpg" alt="" data-aos="fade-right" />
+          <h2 data-aos="fade-right">
+            Our Certificate and Online Program for 2021
+          </h2>
+          <p data-aos="fade-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            dicta numquam hic quos autem tempore aut quae rem nobis ex, sunt,
+            explicabo sequi officiis earum rerum dignissimos, pariatur
+            consectetur. Doloremque.
+          </p>
+          <br />
+          <p data-aos="fade-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            dicta dolorem nam ea sunt veritatis nihil ex dignissimos vitae! Ad
+            blanditiis illum ipsa adipisci possimus labore voluptatem sint
+            repellat vitae Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Numquam consequatur suscipit libero temporibus eligendi,
+            dolorem quis nulla corrupti repudiandae repellendus, esse,
+            architecto reprehenderit minus eum dolor voluptas ex ratione facere
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            accusamus corrupti nam, praesentium nihil, architecto reiciendis
+            facilis deleniti nulla exercitationem unde esse laudantium. Facere a
+            odit libero minima, tempora quisquam.
+          </p>
+          <br />
+          <p data-aos="fade-right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            itaque aspernatur! Autem tempora nam modi dolores incidunt
+            consequatur? Deserunt velit ipsa ea, accusantium ipsum in aliquam
+            repudiandae! Quam, distinctio explicabo Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Veritatis est aut eius porro facilis
+            officia molestias nemo laudantium nam iusto placeat dolorum in magni
+            numquam neque, laboriosam id distinctio impedit.
+          </p>
+          <br />
+          <p data-aos="fade-right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+            soluta. Dolor omnis voluptate saepe vitae tenetur, aspernatur
+            accusantium commodi quos doloribus voluptatum iste, repellat
+            accusamus sed quisquam sapiente tempore quod.
+          </p>
+
+          <div class="comment-box" data-aos="fade-right">
+            <h3>Leave a Comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right" data-aos="fade-left">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Buisness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Pshycology</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Technology</span>
+            <span>10</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>06</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !!!!!!!!! Blog-Content Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!!! Footer Section Start !!!!!!!!! -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Medi-Caps has been a brand name in the arena of technical education.
+        Since its inception in July 2000, Medi-Caps has consistently aimed at
+        creating an ideal <br />ambiance for budding technocrats and managers
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        <p>Made with <i class="far fa-heart"></i> Gurupreet Singh</p>
+      </div>
+    </section>
+    <!-- !!!!!!!!! Footer Section End !!!!!!!!! -->
+
+    <!-- !!!!!!!! Javascript for Toggle Menu !!!!!!!! -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <!-- !!!!!!!! AOS Data !!!!!!!! -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
